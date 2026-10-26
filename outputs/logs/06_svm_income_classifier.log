@@ -1,0 +1,14 @@
+F1 score: 76.09%
+Accuracy on test set: 79.56%
+
+[Datapoint 1 (methodology example)] input: ['37', 'Private', '215646', 'HS-grad', '9', 'Never-married', 'Handlers-cleaners', 'Not-in-family', 'White', 'Male', '0', '0', '40', 'United-States']
+[Datapoint 1 (methodology example)] predicted income class: <=50K
+
+[Datapoint 2 (high income profile)] input: ['45', 'Private', '160000', 'Masters', '14', 'Married-civ-spouse', 'Exec-managerial', 'Husband', 'White', 'Male', '15000', '0', '50', 'United-States']
+[Datapoint 2 (high income profile)] predicted income class: >50K
+
+[Datapoint 3 (young part-time worker)] input: ['22', 'Private', '150000', 'Some-college', '10', 'Never-married', 'Sales', 'Own-child', 'White', 'Female', '0', '0', '20', 'United-States']
+[Datapoint 3 (young part-time worker)] predicted income class: <=50K
+
+[Datapoint 4 (self-employed professional)] input: ['52', 'Self-emp-inc', '209642', 'Prof-school', '15', 'Married-civ-spouse', 'Prof-specialty', 'Husband', 'White', 'Male', '5178', '0', '60', 'United-States']
+[Datapoint 4 (self-employed professional)] predicted income class: >50K

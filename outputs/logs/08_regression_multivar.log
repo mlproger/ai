@@ -1,0 +1,12 @@
+Linear Regressor performance:
+Mean absolute error = 3.58
+Mean squared error = 20.31
+Median absolute error = 2.99
+Explained variance score = 0.86
+R2 score = 0.86
+
+Linear regression:
+ [36.05286276]
+
+Polynomial regression:
+ [31.63944054]

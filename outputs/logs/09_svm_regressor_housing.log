@@ -1,0 +1,39 @@
+Feature names: ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude']
+Full dataset shape: (20640, 8)
+Working sample shape: (600, 8)
+
+#### Performance [base] (C=1.0, epsilon=0.1) ####
+Mean squared error = 0.37
+Explained variance score = 0.69
+
+--- Predictions with base model (C=1.0, epsilon=0.1) ---
+Point 1 (low median income block): predicted median house value = 1.154 (x100 000 $)
+Point 2 (average block): predicted median house value = 1.59 (x100 000 $)
+Point 3 (high median income block): predicted median house value = 3.826 (x100 000 $)
+Point 4 (older, denser block): predicted median house value = 1.583 (x100 000 $)
+
+--- Experiments with different C and epsilon ---
+
+#### Performance [C=0.1, epsilon=0.1] (C=0.1, epsilon=0.1) ####
+Mean squared error = 0.39
+Explained variance score = 0.67
+  Point 1 (low median income block): predicted = 1.131 (x100 000 $)
+  Point 2 (average block): predicted = 1.645 (x100 000 $)
+
+#### Performance [C=1.0, epsilon=0.5] (C=1.0, epsilon=0.5) ####
+Mean squared error = 0.41
+Explained variance score = 0.65
+  Point 1 (low median income block): predicted = 1.299 (x100 000 $)
+  Point 2 (average block): predicted = 1.747 (x100 000 $)
+
+#### Performance [C=10.0, epsilon=0.1] (C=10.0, epsilon=0.1) ####
+Mean squared error = 0.37
+Explained variance score = 0.69
+  Point 1 (low median income block): predicted = 1.15 (x100 000 $)
+  Point 2 (average block): predicted = 1.588 (x100 000 $)
+
+#### Performance [C=10.0, epsilon=0.01] (C=10.0, epsilon=0.01) ####
+Mean squared error = 0.38
+Explained variance score = 0.68
+  Point 1 (low median income block): predicted = 1.112 (x100 000 $)
+  Point 2 (average block): predicted = 1.586 (x100 000 $)
